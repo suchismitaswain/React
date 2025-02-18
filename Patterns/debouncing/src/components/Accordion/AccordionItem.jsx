@@ -10,7 +10,6 @@ export function useAccordionItemContext() {
       'AccordionItem-related components must be wrapped by <Accordion.Item>.'
     );
   }
-
   return ctx;
 }
 
