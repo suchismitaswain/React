@@ -18,7 +18,6 @@ export default function SearchableList({ items, itemKeyFn, children }) {
       setSearchTerm(event.target.value);
     }, 500);
   }
-
   return (
     <div className="searchable-list">
       <input type="search" placeholder="Search" onChange={handleChange} />
